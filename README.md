@@ -1,7 +1,13 @@
 # Proyecto-Integrador-Softwaree
+---
 
+### Nuestra experiencia
+El equipo tuvo una experiencia bastante caotica en esta actividad. Muchos de nosotros ya habiamos trabajado con esta herramienta antes pero en solitario, simplemente para subir evidencias para alguna materia pero no todos tuvimos la dicha de trabajarlo de manera colaborativa como si ocurrió en esta actividad. 
+El hecho de tener que capacitarnos en el uso de la herramienta, conocer y comprender los comandos necesarios nos quito algo de tiempo y como se puede ver en las evidencias de la documentación, bastantes errores por parte de los mas inexpertos como hacer merge a ramas incorrectas o subir una version atrasada del documento eliminando accidentalemnte el trabajo de otros compañeros. 
 
-Práctica del uso y manejo de git para la materia de Ingeniería de Software 2026
+Estamos deacuerdo que lo mas dificil de este tipo de actividades en equipos es coordinar a todos los miembros, sin embargo, hemos ingeniado un flujo de trabajo que nos permitio realizar la actividad en su totalidad y conectar con extio cada uno de los módulos que desarrollamos.
+
+---
 
 # Reto Martin:
 
@@ -87,4 +93,4 @@ sum67([1, 1, 6, 7, 2]) → 4
 
 Se iteró sobre la lista de números usando un ciclo `for` y una variable booleana (`ignore`) como bandera. Al encontrar un `6`, la bandera se cambia a `True` para ignorar la suma de los valores siguientes. Si se encuentra un `7` mientras la bandera está activa, esta se cambia a `False` para reanudar la suma. Los números se suman al total únicamente cuando la bandera es `False`.
 
----
+
