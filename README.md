@@ -74,3 +74,17 @@ lo que falta después de usar las grandes actuales que tenemos actualmente, Y al
 igual de cantidad de chocolates pequeños para cubrir lo restantes. Si es posible, se regresa la cantidad restante, si no
 se regresa un -1.
 
+---
+# Reto Paulo:
+
+Return the sum of the numbers in the array, except ignore sections of numbers starting with a 6 and extending to the next 7 (every 6 will be followed by at least one 7). Return 0 for no numbers.
+
+sum67([1, 2, 2]) → 5
+sum67([1, 2, 2, 6, 99, 99, 7]) → 5
+sum67([1, 1, 6, 7, 2]) → 4
+
+### Solución
+
+Se iteró sobre la lista de números usando un ciclo `for` y una variable booleana (`ignore`) como bandera. Al encontrar un `6`, la bandera se cambia a `True` para ignorar la suma de los valores siguientes. Si se encuentra un `7` mientras la bandera está activa, esta se cambia a `False` para reanudar la suma. Los números se suman al total únicamente cuando la bandera es `False`.
+
+---
